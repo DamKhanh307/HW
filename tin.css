@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-header {
+.header {
     text-align: center;
     padding: 20px;
     background-color: #0073e6; 
@@ -18,26 +18,26 @@ header {
     border-radius: 8px;
 }
 
-header h1 {
+.header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     font-weight: bold;
     width: auto;
 }
 
-header img {
+.header img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 24px;
 }
-section {
+div {
     margin: 20px 0;
     padding: 20px;
     background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
-section h2 {
+div h2 {
     color: #4caf50; 
     margin-bottom: 10px;
 }
@@ -70,7 +70,7 @@ ul li {
     border-radius: 8px;
     margin-top: 10px;
 }
-footer {
+.footer {
     text-align: center;
     margin-top: 20px;
     background-color: #333; 
@@ -78,42 +78,10 @@ footer {
     padding: 10px;
     border-radius: 8px;
 }
-footer a {
+.footer a {
     color: #ff6347; 
     text-decoration: none;
 }
-footer a:hover {
+.footer a:hover {
     color: #f1c40f; 
-}
-.typing {
-    font-size: 3em;
-    font-weight: bold;
-    color: #fff; 
-    border-right: 3px solid #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    animation: typing 4s steps(30, end) 1.5s infinite, blink 0.5s step-end 4;
-    transform: translateX(-50%);
-    position: relative;
-    left: 50%;
-}
-@keyframes typing {
-    0% {
-        width: 0;
-    }
-    60% {
-        width: 70%;
-    }
-    80% {
-        width: 70%;
-    }
-    100% {
-        width: 0;
-    }
-}
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
 }
